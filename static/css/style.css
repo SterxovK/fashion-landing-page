@@ -64,7 +64,7 @@ html {
 }
 
 .menu {
-    animation: left-to-right 1.5s forwards;
+  animation: left-to-right 1.5s forwards;
 }
 
 .hamburger {
@@ -198,6 +198,60 @@ html {
   height: fit-content;
   left: 0;
   padding: 0 80px;
+  pointer-events: none;
+}
+
+.product-info:active {
+  pointer-events: visible;
+}
+
+.product-info h1,
+.product-info > span,
+.product-info p,
+.product-info button {
+  opacity: 0;
+  transition: unset;
+}
+
+.product-info button {
+  transition-delay: 0.2s;
+}
+
+.product-info.active h1,
+.product-info.active > span,
+.product-info.active p,
+.product-info.active button {
+  opacity: 1;
+  transition: opacity 1s, transform 1.2s, letter-spacing 1.2s,
+  right 1.2s;
+}
+
+.product-info h1 {
+    letter-spacing: 20px;
+}
+
+.product-info.active h1 {
+    letter-spacing: unset;
+}
+
+.product-info> span{
+    position: absolute;
+    right: 200px;  
+}
+
+.product-info.active > span{
+    position: absolute;
+    right: 80px;  
+}
+
+.product-info p,
+.product-info button  {
+    transform: translateY(100px);
+}
+
+.product-info.active p,
+.product-info.active button  {
+    transform: translateY(0);
 }
 
 [class*='col-'] {
@@ -221,6 +275,7 @@ html {
   width: 100%;
   height: 100%;
   align-items: center;
+  transition: 1s ease-in-out;
   animation: bottom-up 2s;
 }
 
