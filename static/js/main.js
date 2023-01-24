@@ -59,6 +59,8 @@ slide = () => {
                 cln.style.zIndex = '0'
                 cln.style.animation = 'unset'
 
+                slider.appendChild(cln)
+
               isSliding = false;
             }, 1000);
         }
