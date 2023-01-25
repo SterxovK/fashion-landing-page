@@ -238,7 +238,6 @@ html {
   transition-delay: 0.2s;
 }
 
-
 .product-info.active h1,
 .product-info.active > span,
 .product-info.active p,
@@ -396,7 +395,6 @@ html {
 
 /* animation */
 
-
 @keyframes top-down {
   0% {
     opacity: 0;
@@ -518,3 +516,4 @@ html {
     padding: 50px;
   }
 }
+
