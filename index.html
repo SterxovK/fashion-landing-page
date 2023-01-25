@@ -1,177 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fashion
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./static/css/style.css" />
-  </head>
-  <body>
-    <div
-      class="container"
-      style="
-        background-image: url(./static/images/tamara-bellis-68csPWTnafo-unsplash.jpg);
-      "
-    >
-      <div class="overlay"></div>
-      <!-- top nav -->
-      <div class="nav">
-        <div class="menu" onClick = "openNav()"> 
-          <div class="hamburger"></div>
-        </div>
-        <div class="logo">TUAT.TA</div>
-        <div class="cart">
-          <i class="bx bx-cart-alt"></i>
-        </div>
-      </div>
-      <!-- end top nav -->
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
 
-      <!-- nav menu -->
-      <div class="nav-overlay">
-        <div class="nav-overlay-content">
-          <a href="#">Shop</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-      <!-- end nav menu-->
-
-      <!-- social-icon -->
-      <div class="sci">
-        <i class="bx bxl-facebook-square"></i>
-        <i class="bx bxl-instagram-alt"></i>
-        <i class="bx bxl-youtube"></i>
-        <i class="bx bxl-twitter"></i>
-      </div>
-      <!-- end social-icon -->
-      <!-- fashion label -->
-      <div class="fashion">
-        FASHION
-      </div>
-      <!-- end fashion label -->
-      <!-- product info -->
-      <div class="col-5 z-index-99">
-         <div class="info">
-            <!-- info 1 -->
-            <div class="product-info">
-                <h1>
-                    CREA<span class="text-yellow">TIVE</span>
-                </h1>
-                <h1>
-                    <span class="text-yellow">DE</span>SIGN
-                </h1>
-                <span>
-                    Collection 2023
-                </span>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat perferendis explicabo, animi totam aliquid obcaecati rem corrupti. Animi, maxime sapiente reprehenderit eum sed, voluptatum amet dolorem placeat, consequuntur impedit illo?  
-                </p>
-                <button>
-                    Shop now
-                </button>
+<body>
+    <div class="container" style="background-image: url(./static/images/tamara-bellis-68csPWTnafo-unsplash.jpg);">
+        <div class="nav">
+            <div class="menu" onclick="openNav()">
+                <div class="hamburger"></div>
             </div>
-             <!-- end info 1 -->
-             <!-- info 2 -->
-            <div class="product-info">
-                <h1>
-                    <span class="text-yellow">passion</span>nate
-                </h1>
-                <h1>
-                    pur<span class="text-yellow">swit</span>
-                </h1>
-                <span>
-                    Collection 2023
-                </span>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat perferendis explicabo, animi totam aliquid obcaecati rem corrupti. Animi, maxime sapiente reprehenderit eum sed, voluptatum amet dolorem placeat, consequuntur impedit illo?  
-                </p>
-                <button>
-                    Shop now
-                </button>
+            <div class="logo">
+                TUAT.TA
             </div>
-             <!-- end info 2 -->
-             <!-- info 3 -->
-            <div class="product-info">
-                <h1>
-                    <span class="text-yellow">BE</span>
-                </h1>
-                <h1>
-                    <span class="text-yellow">You</span>rself
-                </h1>
-                <span>
-                    Collection 2023
-                </span>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat perferendis explicabo, animi totam aliquid obcaecati rem corrupti. Animi, maxime sapiente reprehenderit eum sed, voluptatum amet dolorem placeat, consequuntur impedit illo?  
-                </p>
-                <button>
-                    Shop now
-                </button>
-            </div>
-             <!-- end info 3 -->
-             <!-- info 4 -->
-            <div class="product-info">
-                <h1>
-                    <span class="text-yellow">GO</span>LD
-                </h1>
-                <h1>
-                    STY<span class="text-yellow">LE</span>SIGN
-                </h1>
-                <span>
-                    Collection 2023
-                </span>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat perferendis explicabo, animi totam aliquid obcaecati rem corrupti. Animi, maxime sapiente reprehenderit eum sed, voluptatum amet dolorem placeat, consequuntur impedit illo?  
-                </p>
-                <button>
-                    Shop now
-                </button>
-            </div>
-             <!-- end info 4 -->
-        </div>
-      </div>
-      <!-- end product info -->
-      <!-- product image slide -->
-      <div class="col-7">
-        <!-- slider -->
-        <div class="slider">
-            <div class="slide">
-                <div class="img-holder" style="background-image: url(./static/images/dom-hill-nimElTcTNyY-unsplash.jpg);"></div>
-            </div>
-            <div class="slide">
-                <div class="img-holder" style="background-image: url(./static/images/luobulinka-FO4mQZi1c0M-unsplash.jpg);"></div>
-            </div>
-            <div class="slide">
-                <div class="img-holder" style="background-image: url(./static/images/dillon-kydd-gbbsmERXCUg-unsplash.jpg);"></div>
-            </div>
-            <div class="slide">
-                <div class="img-holder" style="background-image: url(./static/images/laura-chouette-d7wSG9uPev4-unsplash.jpg);"></div>
+            <div class="cart">
+                <i class='bx bx-cart-alt'></i>
             </div>
         </div>
-        <!-- end slider -->
-      </div>
-      <!-- end product image slide -->
-      <!-- slide control -->
-      <div class="slide-control z-index-99">
-        <i class="bx bxs-right-arrow"></i>
-      </div>
-      <!-- end slide control -->
-
+        <div id="myNav" class="nav-overlay">
+            <div class="nav-overlay-content">
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="sci">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-youtube'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <div class="fashion">
+            FASHION
+        </div>
+        <div class="slide-control">
+            <i class='bx bxs-right-arrow'></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="col-5" style="z-index: 97;">
+            <div class="info">
+                <!-- info 1 -->
+                <div class="product-info">
+                    <h1>
+                        CREA<span style="color: #e29f01;">TIVE</span>
+                    </h1>
+                    <h1>
+                        <span style="color: #e29f01;">DE</span>SIGN
+                    </h1>
+                    <span>
+                        Collection 2020
+                    </span>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                        veritatis minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur
+                        cumque tempora nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Autem
+                        inventore
+                    </p>
+                    <button>
+                        Shop now
+                    </button>
+                </div>
+                <!-- end info 1 -->
+                <!-- info 2 -->
+                <div class="product-info">
+                    <h1>
+                        <span style="color: #e29f01;">passion</span>nate
+                    </h1>
+                    <h1>
+                        pur<span style="color: #e29f01;">suit</span>
+                    </h1>
+                    <span>
+                        Collection 2020
+                    </span>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                        veritatis
+                        minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                        nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        inventore
+                        explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                        repudiandae.
+                        Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                    </p>
+                    <button>
+                        Shop now
+                    </button>
+                </div>
+                <!-- end info 2 -->
+                <!-- info 3 -->
+                <div class="product-info">
+                    <h1>
+                        <span style="color: #e29f01;">BE</span>
+                    </h1>
+                    <h1>
+                        <span style="color: #e29f01;">You</span>rself
+                    </h1>
+                    <span>
+                        Collection 2020
+                    </span>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                        veritatis
+                        minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                        nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        inventore
+                        explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                        repudiandae.
+                        Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                    </p>
+                    <button>
+                        Shop now
+                    </button>
+                </div>
+                <!-- end info 3 -->
+                <!-- info 4 -->
+                <div class="product-info">
+                    <h1>
+                        <span style="color: #e29f01;">GO</span>LD
+                    </h1>
+                    <h1>
+                        STY<span style="color: #e29f01;">LE</span>
+                    </h1>
+                    <span>
+                        Collection 2020
+                    </span>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt maiores corrupti vel ut
+                        veritatis
+                        minus excepturi odio? Earum at, nihil non eaque consequuntur repudiandae tenetur cumque tempora
+                        nulla! Commodi, distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        inventore
+                        explicabo dolores natus amet fugiat excepturi incidunt laboriosam numquam saepe. Eius,
+                        repudiandae.
+                        Animi molestiae corrupti iusto beatae aperiam ab doloremque.
+                    </p>
+                    <button>
+                        Shop now
+                    </button>
+                </div>
+                <!-- end info 4 -->
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="slider">
+                <div class="slide">
+                    <div class="img-holder"
+                        style="background-image: url(./static/images/dom-hill-nimElTcTNyY-unsplash.jpg);"></div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder"
+                        style="background-image: url(./static/images/luobulinka-FO4mQZi1c0M-unsplash.jpg)">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder"
+                        style="background-image: url(./static/images/dillon-kydd-gbbsmERXCUg-unsplash.jpg)"></div>
+                </div>
+                <div class="slide">
+                    <div class="img-holder"
+                        style="background-image: url(./static/images/laura-chouette-d7wSG9uPev4-unsplash.jpg)"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./static/js/main.js"></script>
-  </body>
+</body>
+
 </html>
